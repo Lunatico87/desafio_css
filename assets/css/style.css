@@ -1,0 +1,107 @@
+.body {
+  background-image: url("./assets/imgs/jeep_header.jpg");
+  background-color: #cccccc;
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.section_header {
+  background-image: url("../imgs/jeep_header.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 30px 80px;
+}
+
+h2 {
+  color: chocolate;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+h3 {
+  color: darkred;
+  font-size: xx-large;
+}
+
+h4 {
+  margin: 50px 0px 50px 0px;
+}
+
+.section_header h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: chocolate;
+  text-align: left;
+  font-style: oblique;
+  font-size: 50px;
+}
+
+.section_header .logo {
+  width: 60px;
+  padding-top: 160px;
+}
+
+.section_header p {
+  margin-top: 0;
+  color: rgb(94, 89, 82);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.section_products {
+  background-color: rgb(235, 230, 230);
+  padding: 30px 10px 30px 10px;
+  border: 4px;
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+  border-color: chocolate;
+}
+
+.section_products table,
+.tabla_portafolio {
+  margin: 0 auto;
+  border: 2px solid black;
+  margin-bottom: 80px;
+}
+
+.section_products td,
+.section_products th,
+.tabla_portafolio td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.section_products img {
+  border: 1px solid #5c4343;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 0px 0px 0px 400px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section_products p {
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+  vertical-align: middle;
+}
+
+.section_footer {
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: initial;
+  font-size: small;
+  color: aliceblue;
+  padding: 30px;
+  text-align: center;
+}
+
+.section_footer span {
+  padding: 0 33% 0 33%;
+}
